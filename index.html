@@ -2,88 +2,235 @@
 <html lang="en">
 
 <head>
-    <!-- Meta Data -->
-    <meta charset="UTF-8">
-    <!-- For Responsive Purpose -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Wahyudi</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css\style.css">
+  <!-- Meta dan judul halaman -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wahyudi</title>
+
+  <!-- Link CSS dan Font Awesome -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Menu bar -->
+  <div id="preloader"></div>
+  <div class="fas fa-bars" id="menu-bars"></div>
 
-    <!-- Main Header -->
-    <header class="main-header">
-        <!-- Logo Website   -->
-        <div class="main-logo"></div>
-        <!-- Navigasi -->
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#message-us">Message Us</a>
-        </nav>
-    </header>
+  <!-- Header dengan navbar dan social media links -->
 
-    <hr />
+  <header>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Home Content -->
-        <section id="home">
-            <header>
-                <h1>Hi User, Welcomne to my Portfolio</h1>
-                <p>Here you can see my profile</p>
-            </header> 
+    <div class="follow">
+      <a href="https://facebook.com/UwoeId" class="fab fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://instagram.com/_y.udii" class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://github.com/Wahyudi-tech" class="fab fa-github" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.youtube.com/@yudii098" class="fab fa-youtube" target="_blank" rel="noopener noreferrer"></a>
 
-            <!-- Banner Autoslide -->
-            <div class="banner-image"></div>
-        </section>
+    </div>
+  </header>
 
-        <hr />
+  <!-- Home start -->
+  <section class="home" id="home">
+    <div class="content">
+      <span class="hi">Hello There...</span>
+      <h3>I'm <span>Wahyudi</span></h3>
+      <p class="info">Freelancer & Developer</p>
+      <p class="text">Selamat datang di portofolio saya. Di sini, dengan bangga mempersembahkan hasil karya dan proyek
+        yang mencerminkan keahlian saya dalam menciptakan software yang inovatif dan fungsional.</p>
+      <a href="#about" class="btn">Let’s Dive Into My World</a>
+    </div>
 
-        <!-- About Content -->
-        <section id="about">
-            <header>
-                <h1>About Me</h1>
-            </header>
+    <div class="image">
+      <img src="assets/app.png" />
+    </div>
+  </section>
 
-            <!-- About Content -->
-            <div class="about-content"></div>
+  <!-- Home End -->
 
-        </section>
+  <!-- About Section -->
 
-        <!-- Portfolio Content -->
-        <section id="portfolio">
-            <header>
-                <h1>Portfolio</h1>
-            </header>
+  <section class="about" id="about">
+    <h1 class="heading">About <span>Me</span></h1>
 
-            <!-- Portfolio Content -->
-            <div class="portfolio-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing</p>
-            </div>
-        </section>
+    <div class="row-1">
+      <div class="image">
+        <img src="assets/1736953916658.png" alt="Foto Wahyudi" />
+      </div>
 
-        <!-- Message Us Content -->
-        <section id="message-us">
-            <header>
-                <h1>Message Us</h1>
-            </header>
+      <div class="content">
+        <h3>Perkenalkan Saya Wahyudi</h3>
+        <p>
+          Saya Mahasiswa S1 Teknik Informatika Universitas Islam Makassar. Memiliki keahlian dalam mendevelop
+          website yang menarik dan fungsional. Dengan pengalaman yang saya miliki, saya berkomitmen untuk menciptakan
+          website yang dapat memenuhi kebutuhan dan harapan klien.
+          Setiap proyek yang saya kerjakan didorong oleh passion dan dedikasi untuk memberikan hasil terbaik.
+        </p>
 
-            <!-- Message Us Content -->
-            <div class="messageus-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing</p>
-            </div>
-        </section>
 
-    </main>
+        <div class="box-container">
+          <div class="box">
+            <p><span>Age = </span> 20</p>
+            <p><span>Gender = </span> Male</p>
+            <p><span>Work = </span> Freelance</p>
+            <p><span>Language = </span> Indonesian, English</p>
+          </div>
+          <div class="box">
+            <p><span>Freelance = </span> Available</p>
+            <p><span>Phone = </span> +6212345678910</p>
+            <p><span>Email = </span> wahyudi.tech.99@gmail.com</p>
+            <p><span>Country = </span> Indonesian</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About  -->
 
-    <!-- Main Footer -->
-    <footer>
-        <p>&copy; 2025 Portfolio Yudi</p>
-    </footer>
+  <!-- experience section -->
+  <section class="experience" id="experience">
+    <h1 class="heading"><span>My </span> Experience</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="content">
+          <span>2020 - 2020</span>
+          <h3>Freelance Tournament Manager</h3>
+          <p>Successfully organized and managed an online Free Fire tournament, handling all aspects including
+            promotion, registration, live streaming,caster, casting, and prize distribution. Designed marketing
+            materials, attracted participants, and ensured smooth event execution. Managed registration fees and prize
+            funds independently, demonstrating strong organizational and leadership skills</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <span>2020 - 2020</span>
+          <h3>Independent Diamond Seller – Free Fire</h3>
+          <p>Managed an independent Free Fire diamond top-up business, handling transactions manually with a focus on
+            fast, secure, and customer-oriented service. Designed promotional materials and marketing posters to attract
+            customers, successfully building a loyal customer base through strategic branding and trust-based selling..
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <span>2022 - 2022</span>
+          <h3>Digital Affiliate Marketing</h3>
+          <p>Successfully built and managed an affiliate marketing business on TikTok (@outfit_kece11), growing the
+            account to ±30,000 followers and generating a two-digit income (in million IDR). Actively followed trends,
+            created engaging short-form content, optimized affiliate campaigns, and leveraged data-driven strategies to
+            maximize conversions and audience engagement.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- experience end -->
+
+  <!-- Portofolio section -->
+
+
+  <section class="portofolio" id="portofolio">
+    <h1 class="heading"><span>My </span>Portofolio</h1>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="assets/Hotel_Project.png" style="width:100%">
+        <div class="text">Proyek ini saya desain untuk hotel dengan fitur reservasi online, tampilan elegan, dan
+          kemudahan navigasi
+          untuk pengunjung.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="assets/Portal_Kasir.png" style="width:100%">
+        <div class="text">Portal kasir ini saya buat untuk transaksi penjualan dengan tampilan yang user-friendly dan
+          fitur laporan
+          keuangan yang mudah diakses.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="assets/project 3.png" style="width:100%">
+        <div class="text">Sebuah website portofolio yang dirancang dengan desain modern dan responsif, menampilkan
+          proyek serta
+          keahlian secara profesional untuk memperkuat personal branding dan daya tarik klien potensial.</div>
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- Portofolio End -->
+
+  <!-- contact start -->
+  <section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Me</h1>
+    <div class="icons-container">
+
+      <!-- email -->
+      <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>My Email</h3>
+        <p><a href="mailto:wahyudi.tech.99@gmail.com">wahyudi.tech.99@gmail.com</a></p>
+      </div>
+
+      <!-- nomor hp -->
+      <div class="icons">
+        <i class="fas fa-phone"></i>
+        <h3>My Number</h3>
+        <p><a href="https://wa.me/62312345678" target="_blank">+62312345678</a></p>
+      </div>
+
+      <!-- alamat -->
+      <div class="icons">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>My Address</h3>
+        <p><a href="https://maps.app.goo.gl/inPsB8YZ2SikUCHj7" target="_blank">Sulawesi Selatan</a></p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <form id="contactForm" class="gform pure-form pure-form-stacked" method="POST">
+        <input type="text" placeholder="Name" class="box" id="name" name="name" required />
+        <input type="email" placeholder="Email" class="box" id="email" name="email" required />
+        <input type="number" placeholder="Number" class="box" id="phone" name="phone" required />
+        <textarea placeholder="Message" id="message" cols="30" rows="10" name="message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <div class="thankyou_message" style="display: none;">
+          <h1>Thanks for contacting us!</h1>
+        </div>
+      </form>
+      <div id="submittedData" class="submitted-data"></div>
+    </div>
+  </section>
+  <!-- contact end -->
+
+
+  <!-- Footer -->
+  <footer class="foot">Created By || <span>Wahyudi</span></footer>
+
+  <!-- bakc to top -->
+  <a href="#home" class="gotop"><i class="fas fa-arrow-up"></i></i></a>
+
+  <script src="js/script.js"></script>
+
 
 </body>
 
